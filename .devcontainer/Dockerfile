@@ -1,6 +1,6 @@
 FROM mcr.microsoft.com/devcontainers/python:3.13
 
-ENV PYTHONUNBUFFERED 1
+ENV RUN rm -f /etc/apt/sources.list.d/yarn.lis
 
 # [Optional] If your requirements rarely change, uncomment this section to add them to the image.
 # COPY requirements.txt /tmp/pip-tmp/
